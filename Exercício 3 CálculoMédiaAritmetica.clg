@@ -1,0 +1,20 @@
+algoritmo calculoMediaAritmetica;
+// Síntese
+//  Objetivo:	Calcular a média aritmética de três números fornecidos pelo usuário.
+//  Entrada :	Mensagem perguntando três números.
+//  Saída   :	Mensagem com o resultado da média aritmética dos três números fornecidos pelo usuário.
+
+
+principal
+	// Declarações
+	real numero1, numero2, numero3, mediaAritmetica, nDados, somaDosdados;
+	// Instruções
+	escreva ("Informe três números dos quais gostaria de tirar a média aritimética: ");
+	leia (numero1);
+	leia (numero2);
+	leia (numero3);
+	nDados = 3;
+	somaDosdados = numero1 + numero2 + numero3;
+	mediaAritmetica = somaDosdados / nDados;
+	escreva (mediaAritmetica);
+fimPrincipal

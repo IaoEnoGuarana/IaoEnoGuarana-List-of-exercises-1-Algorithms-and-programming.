@@ -1,0 +1,38 @@
+algoritmo dadosFuncionarios;
+// Síntese
+//  Objetivo:  Ler o nome do funcionário, o sexo, o número de matrícula, horas trabalhadas, o valor recebido por hora, calcular seu salário e mostrar todos os outros dados na tela.
+//  Entrada :  Mensagem perguntando os dados do funcionario.
+//  Saída   :  Dados do funcionário.
+
+
+principal
+	// Declarações
+	texto nome, sexo;
+	inteiro matricula;
+	real horasTrabalhadas, valorporHora, salario;
+	// Instruções
+	escreval ("Informe o nome");
+	leia (nome);
+	escreval ("Informe o sexo");
+	leia (sexo);
+	escreval ("Informe sua matrícula");
+	leia (matricula);
+	escreval ("Informe as horas trabalhadas diariamente");
+	leia (horasTrabalhadas);
+		se (horasTrabalhadas > 24)
+		entao horasTrabalhadas = 24;
+		fimSe
+	escreval ("Informe seus ganhos por hora");
+	leia (valorporHora);
+	salario = valorporHora * horasTrabalhadas * 30;
+	escreval ("Ficha do funcionário:");
+	escreval ("");
+	escreval ("Nome: ", nome);
+	escreval ("Sexo: ", sexo);
+	escreval ("Matrícula: ", matricula);
+	escreval ("Suas horas trabalhadas diariamente: ", horasTrabalhadas);
+	escreval ("Seus ganhos por hora: ", valorporHora, " R$");
+	escreva ("Seu salário do mês é: ");
+	escreva (salario);
+	escreva (" R$");
+fimPrincipal

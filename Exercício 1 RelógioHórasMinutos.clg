@@ -1,0 +1,20 @@
+algoritmo relogiohoras;
+// Síntese
+//  Objetivo:	Ler um número inteiro de horas e mostrar ao usuário o correspondente em minutos e segundos
+//  Entrada :	Mensagem pedindo número de horas/número de horas fornecido pelo usuário.
+//  Saída   :	Mensagem com número de horas convertido em minutos e segundos.
+
+
+principal
+	// Declarações
+	real horas, minutos, segundos;
+	// Instruções
+	escreva ("Digite o horário que deseja converter para minutos e segundos:");
+	leia (horas);
+	minutos=horas*60;
+	segundos=horas*3600;
+	escreva(minutos);
+	escreval(" minutos");
+	escreva(segundos);
+	escreva (" segundos");
+fimPrincipal

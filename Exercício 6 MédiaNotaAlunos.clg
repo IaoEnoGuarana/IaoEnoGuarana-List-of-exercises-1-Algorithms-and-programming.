@@ -1,0 +1,17 @@
+algoritmo mediaNotaAlunos;
+// Síntese
+//  Objetivo:  Ler duas notas A e B de um aluno e calcular a média do aluno, sabendo e a nota A tem peso 3.5 e a nota B tem peso 7.5 e que cada nota pode ir de 0 a 100
+//  Entrada :  mensagem perguntando a nota.
+//  Saída   :  mensagem com o resultado da média do aluno.
+
+
+principal
+	// Declarações
+	real notaA, notaB, media;
+	// Instruções
+	escreva (" Digite as notas do aluno para tirar a média: ");
+	leia (notaA, notaB);
+	media = (notaA * 3.5 + notaB * 7.5)/(11);
+	escreva (media);
+	
+fimPrincipal

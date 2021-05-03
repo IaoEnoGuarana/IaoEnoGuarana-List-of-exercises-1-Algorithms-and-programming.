@@ -1,0 +1,20 @@
+algoritmo restoequoscientedadivisao;
+// Síntese
+//  Objetivo: Ler dois números fornecidos pelo usuário e mostrar o resto e o quosciente da divisão
+//  Entrada : Mensagem perguntando o dividendo e o divisor
+//  Saída   : Mensagem mostrando o resto do dividendo e o quociente da divisão
+
+
+principal
+	// Declarações
+	inteiro dividendo, resto, divisor, quociente;
+	// Instruções
+	escreva ("Informe o dividendo e depois o divisor da sua conta:");
+	leia (dividendo, divisor);
+	quociente = dividendo / divisor;
+	resto = dividendo % divisor;
+	escreva ("quociente = "); 
+	escreval (quociente);
+	escreva ("resto = ");
+	escreva (resto);
+fimPrincipal
